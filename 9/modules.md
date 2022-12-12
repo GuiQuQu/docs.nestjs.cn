@@ -208,7 +208,7 @@ import { User } from './users/entities/user.entity';
 export class AppModule {}
 ```
 
-如果要依次重新导出动态模块，则可以 `forRoot()` 在导出数组中省略方法调用：
+如果要依次重新导出动态模块，则可以在导出数组中省略 `ForRoot()` 方法调用：
 
 ```typescript
 import { Module } from '@nestjs/common';
